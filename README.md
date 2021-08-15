@@ -1,2 +1,2 @@
 # visualizations
-Scripts for assorted vids
+Scripts for assorted vizs
