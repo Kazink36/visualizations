@@ -1,5 +1,6 @@
 library(cfbfastR)
 library(cfbplotR)
+library(ggtext)
 library(tidyverse)
 
 pbp <- cfbfastR::load_cfb_pbp(2021)
@@ -18,16 +19,16 @@ utah_3rd <- pbp %>%
 utah_3rd %>%
   ggplot(aes(x = x, y = distance)) +
   annotate(GeomCFBlogo, x = 3, y = 7, team = "Utah", height = .5, alpha = .5) +
+  geom_vline(xintercept = 0, color = "yellow",size = 2) +
   geom_segment(aes(xend = xend, yend = distance, color = conversion),
                size = 1,
 
                arrow = arrow(type = "closed")) +
-  geom_segment(aes(xend = xend -.65, yend = distance, color = conversion),
+  geom_segment(aes(xend = xend -.35, yend = distance, color = conversion),
                size = 6) +
-  geom_vline(xintercept = 0, color = "yellow",size = 2) +
   geom_text(aes(label = label),nudge_y = .5,nudge_x = 1) +
-  geom_text(aes(label = label_yards), nudge_y = .5,nudge_x = 5) +
-  labs(title = "Utah's 3rd Down Performance",
+  geom_text(aes(label = label_yards), nudge_y = .5,nudge_x = 3) +
+  labs(title = "<span style='color:#890012'>Utah's</span> Yards Per Play on <span style='color:#7e8083'>3rd Downs</span>",
        subtitle = "2021 Season through Week 12",
        caption = "@JaredDLee | Data: @CFBData via @cfbfastR",
        y = "", x = "Yards to First Down") +
@@ -38,5 +39,9 @@ utah_3rd %>%
   theme_minimal() +
   theme(panel.grid.minor = element_blank(),
         panel.grid.major.y = element_blank(),
+        axis.text.y = element_blank(),
+        plot.title = element_markdown(hjust = .5,face = "bold", size = 20),
+        plot.subtitle = element_text(hjust = .5),
         plot.background = element_rect(fill = "#F8F8F8", color = "#F8F8F8"),
         legend.position = "none")
+ggsave("third_and.png",width = 10, height = 8)
