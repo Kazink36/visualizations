@@ -109,17 +109,19 @@ people <- tribble(
   21.8,45.6,
   21.6,45.4
 ) %>%
-  mutate(label = "B")
+  mutate(path = "https://cdn.iconscout.com/icon/free/png-256/human-man-men-person-stand-male-activity-46407.png")
 
 ggplot(map,aes(long,lat)) +
   geom_polygon(aes(fill = color,group = group),color = "#b0b0a8") +
-  geom_text(data = people,aes(x = x, y = y, label = label),family = "WeePeople", size = 9, color = "#90acca") +
+  cfbplotR::geom_from_path(data = people, aes(x = x, y = y, path = path), height = 0.025, color = "#90acca") +
+  #geom_text(data = people,aes(x = x, y = y, label = label),family = "WeePeople", size = 9, color = "#90acca") +
   geom_point(data = country_labels, aes(x = centroid_lon, y = centroid_lat, size = individuals),shape = 21, fill = "#c8d6e5",color = "#436080") +
   geom_textbox(data = country_labels, aes(x = text_x, y = text_y, label = label),
                 fill = NA,width = .05,color = NA, size = 7, hjust = 0.5) +
   annotate(GeomText,x = 31.23369, y = 49, label = "U K R A I N E", size = 8, fontface = "bold", hjust = 0.5, color = "#232c71") +
   coord_quickmap(xlim = c(17,42), ylim = c(44,55)) +
   scale_fill_identity() +
+  #scale_size_area(max_size = 100)#range = c(8,100))
   scale_radius(range = c(8,100)) +
   labs(title = "Mass Exodus",
           subtitle = "Refugee arrivals from Ukraine, Feb 24th - Mar 3rd 2022",
@@ -131,4 +133,4 @@ ggplot(map,aes(long,lat)) +
         plot.caption = element_text(size = 16, color = "grey50",hjust = 0),
         plot.background = element_rect(fill = "white", color = "white"))
 
-ggsave("test.png", width = 16, height = 10)
+ggsave("ukraine_exo.png", width = 16, height = 10)
