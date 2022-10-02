@@ -1,0 +1,58 @@
+game_id,id_play,pos_team,def_pos_team,pos_team_score,def_pos_team_score,period,clock.minutes,clock.seconds,down,distance,yards_to_goal,play_text
+401404052,4.0140405210186803e+17,Kansas,Tennessee Tech,0,0,1,13,19,3,10,40,Jalon Daniels pass complete to Lawrence Arnold for 21 yds to the TnTch 19 for a 1ST down
+401404052,401404052102859900,Kansas,Tennessee Tech,21,3,2,14,0,3,7,32,Jalon Daniels pass complete to Lawrence Arnold for 13 yds to the TnTch 19 for a 1ST down
+401404052,401404052102859900,Kansas,Tennessee Tech,21,3,2,14,0,3,2,2,Sevion Morrison run for no gain to the TnTch 2
+401404052,4.0140405210293523e+17,Kansas,Tennessee Tech,21,3,2,6,47,3,1,13,Daniel Hishaw Jr. run for 4 yds to the TnTch 9 for a 1ST down
+401404052,401404052102967600,Kansas,Tennessee Tech,28,3,2,3,23,3,11,11,"Jalon Daniels run for 11 yds for a TD, (Jacob Borcila KICK)"
+401404052,401404052103849900,Kansas,Tennessee Tech,35,3,3,15,0,3,3,68,Jalon Daniels run for 21 yds to the TnTch 47 for a 1ST down
+401404052,401404052103849900,Kansas,Tennessee Tech,35,3,3,15,0,3,2,39,Daniel Hishaw Jr. run for 13 yds to the TnTch 26 for a 1ST down
+401404052,401404052103849900,Kansas,Tennessee Tech,35,3,3,15,0,3,6,22,Jalon Daniels pass incomplete to Quentin Skinner
+401404065,401404065101e6,Kansas,West Virginia,0,13,1,0,0,3,16,86,"pass incomplete to Quentin Skinner KANSAS Penalty, illegal shift. (Craig Young) to the Kans 14"
+401404065,401404065101e6,Kansas,West Virginia,0,14,1,0,0,3,4,34,Daniel Hishaw Jr. run for 2 yds to the WVirg 32
+401404065,401404065102e6,Kansas,West Virginia,19,27,2,0,0,3,6,71,Jalon Daniels pass complete to Lawrence Arnold for 9 yds to the Kans 38 for a 1ST down
+401404065,401404065102e6,Kansas,West Virginia,19,27,2,0,0,3,1,53,Jalon Daniels pass complete to Luke Grimm for 20 yds to the WVirg 33 for a 1ST down
+401404065,401404065102e6,Kansas,West Virginia,19,27,2,0,0,3,2,25,Jalon Daniels run for 19 yds to the WVirg 6 for a 1ST down
+401404065,401404065102994100,Kansas,West Virginia,14,28,2,0,58,3,6,41,Jalon Daniels pass complete to Luke Grimm for 7 yds to the WVirg 34 for a 1ST down
+401404065,401404065102997e3,Kansas,West Virginia,21,28,2,0,29,3,5,17,Devin Neal 17 Yd pass from Jalon Daniels (Jacob Borcila Kick)
+401404065,401404065103e6,Kansas,West Virginia,21,28,3,0,0,3,4,69,Jalon Daniels pass complete to Quentin Skinner for 6 yds to the Kans 37 for a 1ST down
+401404065,401404065103e6,Kansas,West Virginia,21,28,3,0,0,3,3,56,Jalon Daniels run for 13 yds to the WVirg 43 for a 1ST down
+401404065,401404065103e6,Kansas,West Virginia,34,28,3,0,0,3,5,68,Jalon Daniels run for 4 yds to the Kans 36
+401404065,401404065103e6,Kansas,West Virginia,34,28,3,0,0,3,3,17,Jalon Daniels pass complete to Luke Grimm for 7 yds to the WVirg 10 for a 1ST down
+401404065,401404065103959900,Kansas,West Virginia,35,28,3,4,0,3,2,2,Devin Neal 2 Yd Run (Jacob Borcila Kick)
+401404065,401404065104e6,Kansas,West Virginia,61,45,4,0,0,3,3,60,Jalon Daniels run for 2 yds to the Kans 42
+401404065,401404065104894e3,Kansas,West Virginia,42,31,4,10,59,3,5,30,Daniel Hishaw Jr. 30 Yd Run (Jacob Borcila Kick)
+401404065,401404065105213200,Kansas,West Virginia,42,42,5,0,0,3,5,20,"Jalon Daniels pass complete to Torry Locklin for a 1ST down WEST VIRGINIA Penalty, roughing passer (Taijh Alston) to the WVirg 10 for a 1ST down"
+401404068,401404068101849900,Kansas,Houston,0,0,1,15,0,3,6,71,Jalon Daniels pass incomplete
+401404068,401404068101899800,Kansas,Houston,0,7,1,10,1,3,20,85,Jalon Daniels pass incomplete
+401404068,401404068101928100,Kansas,Houston,0,14,1,7,18,3,4,34,Jalon Daniels run for 22 yds to the Houst 12 for a 1ST down
+401404068,401404068101975600,Kansas,Houston,7,14,1,2,43,3,10,12,"Jalon Daniels run for 12 yds for a TD, (Jacob Borcila KICK)"
+401404068,401404068102859200,Kansas,Houston,14,14,2,14,7,3,5,42,Devin Neal run for 7 yds to the Houst 35 for a 1ST down
+401404068,401404068102859200,Kansas,Houston,14,14,2,14,7,3,2,27,Jalon Daniels run for 6 yds to the Houst 21 for a 1ST down
+401404068,401404068102949200,Kansas,Houston,21,14,2,5,7,3,7,94,Jalon Daniels run for 9 yds to the Kans 15 for a 1ST down
+401404068,401404068103896900,Kansas,Houston,28,21,3,10,30,3,6,47,Jalon Daniels pass complete to Lawrence Arnold for 10 yds to the Houst 37 for a 1ST down
+401404068,401404068103896900,Kansas,Houston,28,21,3,10,30,3,5,32,Devin Neal run for 2 yds to the Houst 30
+401404068,401404068103976e3,Kansas,Houston,42,21,3,2,39,3,7,8,"Jalon Daniels pass complete to Jared Casey for 8 yds for a TD, (Jacob Borcila KICK)"
+401404068,401404068104884300,Kansas,Houston,42,27,4,11,56,3,5,5,Jalon Daniels pass incomplete
+401404068,401404068104968300,Kansas,Houston,45,30,4,3,16,3,6,17,Jalon Daniels pass complete to Luke Grimm for 1 yd to the Houst 16
+401404068,401404068104968900,Kansas,Houston,45,30,4,3,10,3,6,17,Jalon Daniels pass complete to Luke Grimm for 1 yd to the Houst 16
+401404079,401404079101889300,Kansas,Duke,0,0,1,11,6,3,5,5,Jalon Daniels run for 4 yds to the Duke 1
+401404079,401404079101927900,Kansas,Duke,0,0,1,7,20,3,3,40,Daniel Hishaw Jr. run for no gain to the Duke 40
+401404079,401404079101987e3,Kansas,Duke,7,7,1,1,29,3,5,60,Jalon Daniels pass complete to Luke Grimm for 9 yds to the Kans 49 for a 1ST down
+401404079,401404079102954800,Kansas,Duke,14,10,2,4,51,3,8,73,Jalon Daniels pass complete to Luke Grimm for 19 yds to the Kans 46 for a 1ST down
+401404079,401404079102969200,Kansas,Duke,14,10,2,3,7,3,5,49,Jalon Daniels pass complete to Luke Grimm for 8 yds to the Duke 41 for a 1ST down
+401404079,401404079102988100,Kansas,Duke,14,10,2,1,18,3,6,37,Jalon Daniels pass complete to Trevor Kardell for 16 yds to the Duke 21 for a 1ST down
+401404079,401404079103969400,Kansas,Duke,28,13,3,3,5,3,5,86,Jalon Daniels pass complete to Quentin Skinner for 16 yds to the Kans 30 for a 1ST down
+401404079,4.0140407910485843e+17,Kansas,Duke,28,13,4,14,15,3,13,47,Jalon Daniels pass complete to Lawrence Arnold for 11 yds to the Duke 36
+401404079,4.0140407910494963e+17,Kansas,Duke,28,20,4,5,3,3,10,16,Jalon Daniels pass complete to Tanaka Scott for 13 yds to the Duke 3 for a 1ST down
+401404079,401404079104978300,Kansas,Duke,35,27,4,2,16,3,10,50,Devin Neal run for no gain to the 50 yard line
+401404084,401404084101897800,Kansas,Iowa State,0,0,1,10,21,3,1,71,Jalon Daniels pass complete to Jared Casey for 30 yds to the IowSt 41 for a 1ST down
+401404084,401404084101909200,Kansas,Iowa State,0,0,1,9,7,3,9,40,"Jason Bean run for 16 yds to the IowSt 24 KANSAS Penalty, Offensive Holding (Jared Casey) to the IowSt 48"
+401404084,401404084101915900,Kansas,Iowa State,0,0,1,8,40,3,17,48,Daniel Hishaw Jr. run for no gain to the IowSt 48
+401404084,401404084102874800,Kansas,Iowa State,0,0,2,12,51,3,3,35,Devin Neal run for 30 yds to the IowSt 5 for a 1ST down
+401404084,401404084102907300,Kansas,Iowa State,7,0,2,9,26,3,8,50,Jalon Daniels pass incomplete to Luke Grimm
+401404084,401404084102947400,Kansas,Iowa State,14,0,2,5,25,3,2,2,Jalon Daniels run for 2 yds for a TD (Jacob Borcila KICK)
+401404084,401404084102994500,Kansas,Iowa State,14,8,2,0,54,3,5,32,Jalon Daniels pass incomplete to Lawrence Arnold
+401404084,401404084103886200,Kansas,Iowa State,14,8,3,11,37,3,6,48,Jalon Daniels run for 3 yds to the IowSt 45
+401404084,401404084103968400,Kansas,Iowa State,14,11,3,3,15,3,8,38,Jason Bean run for no gain to the IowSt 38
+401404084,401404084104899200,Kansas,Iowa State,14,11,4,10,7,3,10,72,Jalon Daniels pass incomplete to Lawrence Arnold
+401404084,401404084104968300,Kansas,Iowa State,14,11,4,3,16,3,12,82,Jalon Daniels sacked by MJ Anderson for a loss of 6 yards to the Kans 12
